@@ -1,0 +1,118 @@
+/* For big tablets to computers from 1024-1200px (for widths smaller than the row) */
+@media only screen and (max-width: 1200px) {
+    .hero-text-box {
+        position: absolute;
+        width: 100%;
+        padding: 0 2%;
+    }
+
+    .row { padding: 0 2%; }
+
+}
+
+/* For tablets from 768-1024px */
+@media only screen and (max-width: 1023px) {
+    body { font-size: 18px; }
+    section  { padding: 60px 0; }
+
+    .long-copy {
+        line-height: 145%;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .steps-box{ margin-top: 10px; }
+    .steps-box:last-child { margin-top: 10px; }
+    .how-step { margin-bottom: 40px; }
+    .how-step:last-child { margin-bottom: 60px; }
+
+    .app-screen {width: 50%;}
+
+    .icon-small { 
+        width: 15px;
+        margin-right: 5px;
+    }
+    .city-facts { font-size: 90%; }
+
+    .plan-box {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .plan-cost { font-size: 250%;}
+
+    .contact-form { width: 80%;}
+}
+
+/* For small phones to small tablets from 481-767px */
+@media only screen and (max-width: 767px) {
+    body { font-size: 16px; }
+    section { padding: 30px 0; }
+
+    .row,
+    .hero-text-box { padding: 0 4%; }
+    .col { 
+        width: 100%; 
+        margin: 0 0 4% 0;
+    }
+
+    .main-nav { display: none; }
+
+    /* .hamburger-icon { display: inline-block; }
+
+    .main-nav {
+        float: left;
+        margin-top: 25px;
+        margin-left: 25px;
+    }
+
+    .main-nav li {
+        display: block;
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: none;
+        padding: 5px 0;
+        font-size: 100%;
+    }
+
+    .sticky .main-nav { margin-top: 10px; }
+    
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited { padding: 10px 0; }
+    .sticky .hamburger-icon { margin-top: 10px; }
+    .sticky .hamburger-icon i { color: #555; } */
+
+    h1 { font-size: 180%; }
+    h2 { font-size: 150%; }
+    .long-copy {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .app-screen {
+        width: 40%;
+    }
+    .steps-box:first-child {
+        text-align: center;
+    }
+
+    .how-step div {
+        height: 40px;
+        width: 40px;
+        margin-right: 15px;
+        padding: 4px;
+        font-size: 120%;
+    }
+
+    .how-step { margin-bottom: 20px; }
+    .how-step:last-child { margin-bottom: 20px; }
+}
+
+/* For small phones from 0-480px */
+@media only screen and (max-width: 480px) {
+    section { padding: 25px 0; }
+    .contact-form { width: 100% }
+}
